@@ -12,6 +12,11 @@ public class HelloController {
 	{
 		return "Hello to the world of devops";
 	}
+	@GetMapping(value = "/welcome")
+	public String welcome()
+	{
+		return "Welcome to the world of devops";
+	}
 	
 
 }
